@@ -7,11 +7,19 @@
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-2 d-flex justify-content-evenly">
-            <button class="btn btn-primary buttonFont mdi mdi-linkedin">
-            </button>
-            <button class="btn btn-primary mdi mdi-github buttonFont"></button>
-            <button class="btn btn-primary mdi mdi-facebook buttonFont"></button>
-            <button class="btn btn-primary mdi mdi-instagram buttonFont"></button>
+            <a href="https://www.linkedin.com/in/duffisaac/" target="_blank"><button
+                class="btn btn-primary  mdi mdi-linkedin buttonFont"></button>
+            </a>
+            <a href="https://github.com/IsaacDuff" target="_blank"><button
+                class="btn btn-primary mdi mdi-github buttonFont"></button></a>
+            <a href="https://www.facebook.com/isaac.duff.3" target="_blank"><button
+                class="btn btn-primary mdi mdi-facebook buttonFont"></button></a>
+            <a href="https://www.instagram.com/duffisaac/" target="_blank"><button
+                class="btn btn-primary mdi mdi-instagram buttonFont"></button></a>
+            <!-- <button class="btn btn-primary  mdi mdi-linkedin buttonFont"></button> -->
+            <!-- <button class="btn btn-primary mdi mdi-github buttonFont"></button> -->
+            <!-- <button class="btn btn-primary mdi mdi-facebook buttonFont"></button> -->
+            <!-- <button class="btn btn-primary mdi mdi-instagram buttonFont"></button> -->
           </div>
         </div>
       </div>
