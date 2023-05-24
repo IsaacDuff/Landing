@@ -6,11 +6,12 @@
       <h4 class="text-light">Full Stack Developer</h4>
       <div class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-3 d-flex justify-content-evenly">
-            <button class="btn btn-primary">L</button>
-            <button class="btn btn-primary">G</button>
-            <button class="btn btn-primary">F</button>
-            <button class="btn btn-primary">I</button>
+          <div class="col-2 d-flex justify-content-evenly">
+            <button class="btn btn-primary buttonFont mdi mdi-linkedin">
+            </button>
+            <button class="btn btn-primary mdi mdi-github buttonFont"></button>
+            <button class="btn btn-primary mdi mdi-facebook buttonFont"></button>
+            <button class="btn btn-primary mdi mdi-instagram buttonFont"></button>
           </div>
         </div>
       </div>
@@ -18,7 +19,7 @@
 
     <div class="row">
       <div class="col-4 p-5 d-flex justify-content-end">
-        <img class="mainImg elevation-4" src="../assets/img/Isaac Duff 3.jpg" alt="big pic">
+        <img class="mainImg elevation-5 border border-light rounded" src="../assets/img/Isaac Duff 3.jpg" alt="big pic">
       </div>
       <div class="col-6 pt-5">
         <h3 class="text-primary">Discover</h3>
@@ -77,7 +78,7 @@ export default {
 
 <style scoped lang="scss">
 .profilePic {
-  max-height: 15vh;
+  max-height: 18vh;
   border-radius: 50%;
   border-style: solid;
   border-width: 3px;
@@ -86,7 +87,7 @@ export default {
 
 .heroImg {
   background-image: url(../assets/img/pexels-marek-piwnicki-15334615.jpg);
-  height: 60vh;
+  height: 80vh;
   background-position: center;
   background-size: cover;
 }
@@ -94,5 +95,9 @@ export default {
 .mainImg {
   height: 50vh;
   width: auto;
+}
+
+.buttonFont {
+  font-size: x-large;
 }
 </style>
